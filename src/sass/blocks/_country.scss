@@ -1,0 +1,23 @@
+.country {
+    max-height: 85px;
+    &_generals_block {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+ 
+    }
+    &_block_item {
+        display: flex;
+        margin-top: 20px;
+        color: #242424;
+        font-size: 11px;
+        font-weight: 300;
+        line-height: 18px;
+    }
+    &_img {
+        padding: 4px 11px 0 0;
+    }
+    &_text {
+        width: 189px;
+    }
+}
