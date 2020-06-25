@@ -1,12 +1,13 @@
 .country {
     max-height: 85px;
-    &_generals_block {
+    &__block {
         display: flex;
         align-items: flex-start;
         justify-content: space-around;
+        margin-bottom: 10px;
  
     }
-    &_block_item {
+    &__item {
         display: flex;
         margin-top: 20px;
         color: #242424;
@@ -14,10 +15,13 @@
         font-weight: 300;
         line-height: 18px;
     }
-    &_img {
+    &__img {
         padding: 4px 11px 0 0;
     }
-    &_text {
+    &__text {
         width: 189px;
+        &_uk {
+            width: 157px;
+        }
     }
 }
