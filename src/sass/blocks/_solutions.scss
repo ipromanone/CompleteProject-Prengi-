@@ -5,7 +5,7 @@
         width: 658px;
         text-align: center;
         padding-top: 79px;
-        transform: translateX(-10%);
+        margin-left: 50px;
         color: #ffffff;
         font-size: 30px;
         font-weight: 400;
@@ -15,7 +15,7 @@
         width: 1070px;
         height: 65px;
         margin-top: 32px;
-        margin-left: -65px;
+        margin-left: 65px;
         padding-top: 19px;
         border: 1px solid #ffffff;
         transform: translateX(-20%);
@@ -50,7 +50,7 @@
     &__inner {
         width: 700px;
         margin-top: 44px;
-        margin-left: -450px;
+        margin-left: -210px;
         img {
             max-width: 100%;
         }

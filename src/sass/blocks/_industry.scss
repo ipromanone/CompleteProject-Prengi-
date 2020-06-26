@@ -1,0 +1,45 @@
+.industry {
+    height: 1070px;
+    &__title {
+        width: 371px;
+        margin-top: 81px;
+        margin-bottom: 44px;
+        margin-left: 200px;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 35.99px;
+        text-align: center;
+    }
+    &__content {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%; 
+    }
+    &__block {
+        position: relative;
+        z-index: 1;
+    }
+    img {
+        width: 380px;
+        z-index: 2;
+    }
+    &__subtitle {
+        position: relative;
+        margin-top: -190px;
+        width: 380px;
+        height: 156px;
+        background-color: #000000;
+        opacity: 0.44;
+        z-index: 10;
+        p {
+            text-align: center;
+            padding-top: 39px;
+            color: #ffffff;
+            font-size: 23px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+}
