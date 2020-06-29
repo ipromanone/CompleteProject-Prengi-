@@ -1,0 +1,51 @@
+.footer {
+    height: 490px;
+    background: rgb(17, 128, 166);
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    &__link {
+        display: flex;
+        flex-direction: column;
+    }
+    &__company {
+        width: 377px;
+    }
+    &__logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        &:hover {
+            display: block;
+            color: rgb(255, 239, 9);
+        }
+    }
+    &__title {
+        margin-top: 49px;
+        margin-bottom: 0;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 27px;
+    }
+    &__text {
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 200;
+    }
+    a {
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 200; 
+        &:hover {
+            color: rgb(255, 239, 9);
+        }
+    }
+    &__down {
+        text-align: center;
+        margin-top: 38px;
+    }
+}
