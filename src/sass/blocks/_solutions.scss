@@ -1,11 +1,11 @@
 .solutions{
     height: 889px;
-    background: url(../../img/bg2.png) center (center/cover) no-repeat;
+    background: url(../../img/bg-2new.png) center (center/cover) no-repeat;
    &__title {
         width: 658px;
         text-align: center;
         padding-top: 79px;
-        margin-left: 50px;
+        margin-left: 270px;
         color: #ffffff;
         font-size: 30px;
         font-weight: 400;
@@ -15,8 +15,9 @@
         width: 1070px;
         height: 65px;
         margin-top: 32px;
-        margin-left: 65px;
         padding-top: 19px;
+        margin-left: 280px;
+        margin-bottom: 44px;
         border: 1px solid #ffffff;
         transform: translateX(-20%);
         text-align: center;
@@ -50,7 +51,7 @@
     &__inner {
         width: 700px;
         margin-top: 44px;
-        margin-left: -210px;
+        margin: 0 auto;
         img {
             max-width: 100%;
         }
@@ -60,7 +61,7 @@
         width: 40px;
         top: 30%;
         transform: translateY(-50%);
-        left: -70px;
+        left: -370px;
         border: none;
         background-color: rgba(0, 50, 50, 0.0);
         img {
@@ -72,5 +73,4 @@
         right: -70px;
         left: auto;
     }
-
 }

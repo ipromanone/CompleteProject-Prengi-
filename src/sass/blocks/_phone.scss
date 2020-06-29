@@ -1,12 +1,14 @@
 .phone {
     height: 700px;
-    background: url(../../img/bg1.png) center (center/cover) no-repeat;
+    background: url(../../img/b-1new.png) center (center/cover) no-repeat;
     &__up {
         display: flex;
         img {
-            margin-left: -295px;
             margin-top: 39px;
         }
+    }
+    &__menu {
+        margin-left: 163px;
     }
     ul {
         display: flex;
@@ -33,12 +35,14 @@
         margin-top: 133px;
     }
     &__title {
+        margin-left: 300px;
         color: #ffffff;
         font-size: 42px;
         font-weight: 400;
         line-height: 48px;
     }
     &__subtitle {
+        margin-left: 300px;
         color: #ffffff;
         font-size: 24px;
         font-weight: 300;
@@ -52,7 +56,7 @@
         width: 440px;
         height: 569px;
         margin-top: -370px;
-        margin-left: 390px;
+        margin-left: 680px;
     }
 
 }

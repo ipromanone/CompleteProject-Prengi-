@@ -9,11 +9,13 @@
     }
     &__item {
         display: flex;
+        justify-content: space-between;
+        align-items:center;
         margin-top: 20px;
         color: #242424;
-        font-size: 11px;
+        font-size: 9px;
         font-weight: 300;
-        line-height: 18px;
+        line-height: 14px;
     }
     &__img {
         padding: 4px 11px 0 0;
