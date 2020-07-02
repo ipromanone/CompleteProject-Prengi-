@@ -1,8 +1,7 @@
 .industry {
-    height: 600px;
-    margin-bottom: 20px;
+        min-height: 600px;
     &__title {
-        width: 371px;
+        max-width: 371px;
         margin: 0 auto;
         margin-top: 81px;
         margin-bottom: 44px;   
@@ -17,7 +16,7 @@
         justify-content: center;
         align-items: flex-start;
         flex-wrap: wrap;
-        width: 100%; 
+ 
     }
     &__block {
         position: relative;
@@ -25,14 +24,13 @@
     }
     img {
         margin: 0 auto;
-        width: 100%;
-        max-height: 100%;
-        z-index: 2;
+        max-width: 500px;
+        height: 100%;
     }
     &__subtitle {
         position: absolute;
         margin-top: -250px;
-        width: 570px;
+        width: 500px;
         height: 156px;
         background-color: rgba(0, 0, 0, 0.3);;
         z-index: 10;

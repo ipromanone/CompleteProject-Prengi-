@@ -1,62 +1,64 @@
+/* .hamburger {
+    
+    .span {
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+    }
+} */
 .phone {
-    height: 700px;
+    position: relative;
+    min-height: 700px;
     background: url(../../img/b-1new.png) center (center/cover) no-repeat;
+    &__logo {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 39px;
+    }
     &__up {
         display: flex;
-        img {
-            margin-top: 39px;
-        }
     }
     &__menu {
-        margin-left: 163px;
+        margin-top: 64px;
+        margin-left: auto;
     }
     ul {
-        display: flex;
-        margin-top: 64px;
-        margin-left: 220px;
-        height: 11px;
-        width: 670px;
-        li {
-            margin-left: 40px;
-            list-style-type: none;
-            color: #ffffff;
-            font-family: Roboto;
-            font-size: 13px;
-            font-weight: 700;
-            text-transform: uppercase;
-            cursor: pointer;
-            &:hover {
-                color:green
-            }
-        }
+        display: flex;  
+        list-style-type: none;
     }
-    &__text {
-        margin-left: -295px;
-        margin-top: 133px;
+    a {
+        padding-left: 45px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 26px;
+        text-transform: uppercase;
     }
     &__title {
-        margin-left: 300px;
+        margin-top: 133px;
         color: #ffffff;
         font-size: 42px;
         font-weight: 400;
         line-height: 48px;
     }
+    p {
+        display: inline;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+    }
     &__subtitle {
-        margin-left: 300px;
         color: #ffffff;
         font-size: 24px;
         font-weight: 300;
         line-height: 30px;
-        p {
-            display: inline;
-            font-weight: 400;
-        }
+        font-weight: 100;
     }
-    .img {
-        width: 440px;
-        height: 569px;
-        margin-top: -370px;
-        margin-left: 680px;
-    }
-
-}
+    &__img {
+        position: absolute;
+        margin-left: 670px;
+        margin-top: -371px;
+        
+    }  
+}   

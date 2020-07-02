@@ -18,7 +18,7 @@
                         <img src="icons/ukr.png" alt="ukraine"></div>
                     <div class="country__text country__text_uk">
                         <div class="country__title">Ukraine</div>
-                        <div class="country__subtitle">tel. +38(063) 930 07 002 hi@vasolutions.com.ua</div>
+                        <div class="country__subtitle">tel. +38(063) 930 07 002,<br>hi@vasolutions.com.ua</div>
                     </div>
                 </div>
     
@@ -28,7 +28,7 @@
                     </div>
                     <div class="country__text">
                         <div class="country__title">Germany</div>
-                        <div class="country__subtitle">Trierer Strabe 35, 54329 Konz tel. +352 661 88 03 05</div>
+                        <div class="country__subtitle">Trierer Strabe 35, 54329 Konz<br>tel. +352 661 88 03 05</div>
                     </div>
                 </div>
     
@@ -38,7 +38,7 @@
                     </div>
                     <div class="country__text">
                         <div class="country__title">Estonia</div>
-                        <div class="country__subtitle">K. Karbery 16/27, 13812 Tallinn tel. +352 661 88 03 05</div>
+                        <div class="country__subtitle">K. Karbery 16/27, 13812 Tallinn<br>tel. +352 661 88 03 05</div>
                     </div>
                 </div>
     
@@ -48,7 +48,7 @@
                     </div>
                     <div class="country__text">
                         <div class="country__title">Great Britain</div>
-                        <div class="country__subtitle">E20LP, Golden vc House, London tel. +44 750 109 55 29</div>
+                        <div class="country__subtitle">E20LP, Golden vc House, London <br> tel. +44 750 109 55 29</div>
                     </div>
                 </div>
     
@@ -58,7 +58,7 @@
                     </div>
                     <div class="country__text">
                         <div class="country__title">Luxembourg</div>
-                        <div class="country__subtitle">2,Rue d`Avalon, L-1159 Luxembourg tel. +352 661 88 03 05</div>
+                        <div class="country__subtitle country__subtitle-lex">2,Rue d`Avalon, L-1159 Luxembourg <br>tel. +352 661 88 03 05</div>
                     </div>
                 </div>
             </div>
@@ -72,23 +72,37 @@
                     <img src="../icons/logo.png" alt="logo">
                 </div>
                 <div class="phone__menu">
-                    <ul>
-                        <li>главная</li>
-                        <li>Модули</li>
-                        <li>oтрасли</li>
-                        <li>o нас</li>
-                        <li>наши обязательства</li>
+                    <ul class="menu">
+                        <li class="menu_item">
+                            <a href="#" class="menu_link">главная</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#" class="menu_link">Модули</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#" class="menu_link">oтрасли</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#" class="menu_link">o нас</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#" class="menu_link">наши обязательства</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-
+            <div class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
             <div class="phone__text">
                 <h2 class="phone__title">Управляй своим бизнесом <br> через Smartphone </h2>
                 <div class="phone__subtitle"><p>PRENGI</p> - Платформа для прозрачного <br> управления бизнесом</div>
                 <button class="button">Получить доступ</button>
             </div>
 
-            <div class="phone_img">
+            <div class="phone__img">
                 <img src="img/telefon.png" alt="" class="img">
             </div>
         </div>
@@ -138,7 +152,7 @@
     <section class="solutions">
         <div class="container">
             <div class="solutions__block">
-                <h2 class="solutions__title">Prengi предоставляет экспертные решения для Вашей отрасли</h2>
+                <h2 class="solutions__title">Prengi предоставляет экспертные решения <br> для Вашей отрасли</h2>
                 <div class="solutions__menu">
                     <div class="solutions__points">
                         <ul>
@@ -247,18 +261,21 @@
         <div class="container">
             <div class="options__content">
                 <h2>Варианты развертывания Ваших данных</h2>
-                <div class="options__img">
-                    <img src="img/cloudnew.png" alt=""> 
-                    <img src="img/servernew.png" alt="">
-                </div>
-                <div class="options__info">
-                    <div class="options__text">
-                        <p class="options__title">Облачное хранилище</p>
-                        <p class="options__subtitle">Это выделенное пользователю пространство на жестком диске сервера, находящегося в Интернете. </p>
+                <div class="options__icons">
+                    <div class="options__img">
+                        <img src="img/cloudnew.png" alt=""> 
+                    </div>
+                    <div class="options__text options__text-right">
+                        <p class="options__title options__title-right">Облачное хранилище</p>
+                        <p class="options__subtitle options__subtitle-right">Это выделенное пользователю пространство на</p>
+                        <p class="options__subtitle options__subtitle-min">жестком диске сервера, находящегося в Интернете.</p>
+                    </div>
+                    <div class="options__img">
+                        <img src="img/servernew.png" alt="">
                     </div>
                     <div class="options__text options__text-left">
-                        <p class="options__title">Размещение не сервере</p>
-                        <p class="options__subtitle">Услуга аренды пространства в центре обработки данных (колокация серверов) предназначена для клиентов</p>
+                        <p class="options__title options__title-left">Размещение не сервере</p>
+                        <p class="options__subtitle options__subtitle-left">Услуга аренды пространства в центре обработки данных (колокация серверов) предназначена для клиентов</p>
                     </div>
                 </div>
             </div>

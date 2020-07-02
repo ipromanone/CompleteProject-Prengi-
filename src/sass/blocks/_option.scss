@@ -1,48 +1,113 @@
 .options {
-    position: relative;
-    height: 470px;
+    min-height: 580px;
     h2 {
-        position: absolute;
         text-align: center;
         margin-top: 35px;
         margin-left: 390px;
-        width: 371px;
-        height: 63px;
+        max-width: 371px;
+        max-height: 63px;
         color: #ffffff;
         font-size: 30px;
         font-weight: 500;
         line-height: 35px;
+    }
+    img {
+        max-width: 550px;
+    }
+    &__icons {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        z-index: 1;
+    }
+    &__text {
+        position: absolute;
+        margin-top: 140px;
         z-index: 10;
     }
-    &__content {
-        margin-top: 700px;
+    &__text-left {
+        margin-left: 600px;
+    }
+    &__text-right {
+        margin-left: 60px;
+    }
+    &__title {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 22px;
+        text-transform: uppercase;
+    }
+    &__title-right {
+        margin-left: 84px;
+    }
+    &__subtitle {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+    }
+    &__subtitle-left {
+        max-width: 499px;
+    }
+    &__subtitle-right {
+        max-width: 600px;
+        margin-left: 31px;
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .options {
+    min-height: 470px;
+    h2 {
+        text-align: center;
+        margin-top: 35px;
+        margin-left: 390px;
+        max-width: 371px;
+        max-height: 63px;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 35px;
     }
     &__img {
         display: flex;
-        position: absolute;
-        z-index: 1;
     }
     img {
-        width: 47%;
+        width: 46.5%;
     }
     &__info {
-        position: relative;
         display: flex;
-        margin-left: 50px;
-        z-index: 10;
+        margin-left: 30px;
     }
     &__text {
-        width: 479px;
+        max-width: 479px;
         margin-top: 140px;
         text-align: center;
-    }
-    &__title {
-        text-align: center;
-        color: #ffffff;
-        font-size: 27px;
-        font-weight: 500;
-        line-height: 22px;
-        text-transform: uppercase;   
     }
     &__subtitle {
         color: #ffffff;
@@ -51,6 +116,6 @@
         line-height: 26px;
     }
     &__text-left {
-        margin-left: 100px;
+        margin-left: 80px;
     }
-}
+} */

@@ -1,0 +1,12 @@
+@media (max-width: 320px) {
+    .country {
+        display: none;
+    }
+    .phone {
+        &__logo {
+            margin-top: 30px;
+        }
+    }
+}
+
+    

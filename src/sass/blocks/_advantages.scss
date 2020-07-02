@@ -1,9 +1,9 @@
 .advantages {
-    height: 895px;
+    min-height: 895px;
     &__info-up {
-        position: relative;
         display: flex;
-        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: space-between;
         margin-top: 48px;
         p {
             position: absolute;
@@ -18,10 +18,9 @@
         }
     }
     &__info-down {
-        position: relative;
         display: flex;
-        justify-content: space-around;
-        margin-top: 6px;
+        flex-wrap: wrap;
+        justify-content: space-between;
         p {
             position: absolute;
             width: 254px;
@@ -30,17 +29,14 @@
             text-align: center;
             color: #393939;
             font-size: 18px;
-            font-weight: 700;
+            font-weight: 300;
             line-height: 26px;
         }
     }
-    &__img {
-        padding: 31px;
         img {
             width: 330px;
             border-color: white;
         }
-    }
     &__arrow {
         display: flex;
         justify-content: center;
@@ -50,6 +46,7 @@
     &__title {
         text-align: center;
         margin-top: 33px;
+        margin-bottom: 50px;
         color: #393939;
         font-size: 48px;
         font-weight: 700;

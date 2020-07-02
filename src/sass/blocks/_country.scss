@@ -1,9 +1,9 @@
 .country {
-    max-height: 85px;
+    min-height: 85px;
     &__block {
         display: flex;
+        justify-content: space-between;
         align-items: flex-start;
-        justify-content: space-around;
         margin-bottom: 10px;
  
     }
@@ -21,9 +21,9 @@
         padding: 4px 11px 0 0;
     }
     &__text {
-        width: 189px;
+        max-width: 189px;
         &_uk {
-            width: 157px;
+            max-width: 157px;
         }
     }
 }
