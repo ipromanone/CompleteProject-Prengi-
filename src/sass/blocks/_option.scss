@@ -1,7 +1,6 @@
 .options {
     min-height: 580px;
-    h2 {
-        text-align: center;
+    &__h2 {
         margin-top: 35px;
         margin-left: 390px;
         max-width: 371px;
@@ -10,14 +9,13 @@
         font-size: 30px;
         font-weight: 500;
         line-height: 35px;
+        text-align: center;
     }
-    img {
+    &__img {
         max-width: 550px;
     }
     &__icons {
-        position: relative;
         display: flex;
-        flex-wrap: wrap;
         z-index: 1;
     }
     &__text {

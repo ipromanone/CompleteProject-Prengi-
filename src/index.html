@@ -67,9 +67,16 @@
 
     <section class="phone">
         <div class="container">
+            <div class="hamburger">
+				<div class="hamburger__content">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+			</div>
             <div class="phone__up">
                 <div class="phone__logo">
-                    <img src="../icons/logo.png" alt="logo">
+                    <img src="../icons/logo.png" alt="logo" class="phone__logo-img">
                 </div>
                 <div class="phone__menu">
                     <ul class="menu">
@@ -91,20 +98,20 @@
                     </ul>
                 </div>
             </div>
-            <div class="hamburger">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
+           <div class="phone__items">
             <div class="phone__text">
                 <h2 class="phone__title">Управляй своим бизнесом <br> через Smartphone </h2>
                 <div class="phone__subtitle"><p>PRENGI</p> - Платформа для прозрачного <br> управления бизнесом</div>
-                <button class="button">Получить доступ</button>
+                <div class="phone__button">
+                    <button class="button">Получить доступ</button>
+                </div>
+                
             </div>
 
             <div class="phone__img">
-                <img src="img/telefon.png" alt="" class="img">
+                <img src="img/telefon.png" alt="" class="phone__img-tel">
             </div>
+           </div>
         </div>
     </section>
 
@@ -113,16 +120,16 @@
             <div class="advantages__block">
                 <div class="advantages__info-up">
                     <div class="advantages__img">
-                        <img src="icons/1-1(x).png" alt="img">
+                        <img src="icons/1-1(x).png" alt="img" class="advantages__icon">
                         <p class="advantages__text-up">Нет оперативности в принятии решений?</p>  
                     </div>
                     <div class="advantages__img">
-                        <img src="icons/1-2(x).png" alt="img">
+                        <img src="icons/1-2(x).png" alt="img" class="advantages__icon">
                         <p class="advantages__text-up">Нет учета и контроля обслуживания?</p> 
                     </div>
                     <div class="advantages__img">
-                        <img src="icons/1-3(x).png" alt="img">
-                        <p class="advantages__text-up">Сложно строить прогнозы и анализировать данные?</p> 
+                        <img src="icons/1-3(x).png" alt="img" class="advantages__icon">
+                        <p class="advantages__text-up advantages__text-up-top">Сложно строить прогнозы и анализировать данные?</p> 
                     </div>
                 </div>
                 <div class="advantages__down">
@@ -133,15 +140,15 @@
                 </div>
                 <div class="advantages__info-down">
                     <div class="advantages__img">
-                        <img src="icons/2-1(x).png" alt="img">
+                        <img src="icons/2-1(x).png" alt="img" class="advantages__icon">
                         <p class="advantages__text-down">Все затраты спланированыи расписаны</p>   
                     </div>
                     <div class="advantages__img">
-                        <img src="icons/2-2(x).png" alt="img">
+                        <img src="icons/2-2(x).png" alt="img" class="advantages__icon">
                         <p class="advantages__text-down">Корректная аналитика данных online</p> 
                     </div>
                     <div class="advantages__img">
-                        <img src="icons/2-3(x).png" alt="img">
+                        <img src="icons/2-3(x).png" alt="img" class="advantages__icon">
                         <p class="advantages__text-down">Простая интеграция с любым Вашим ПО</p> 
                     </div>
                 </div>
@@ -155,29 +162,29 @@
                 <h2 class="solutions__title">Prengi предоставляет экспертные решения <br> для Вашей отрасли</h2>
                 <div class="solutions__menu">
                     <div class="solutions__points">
-                        <ul>
-                            <li>
-                                <a href="">Prengi Production </a>
-                                <div class="solutions__line"></div>
+                        <ul class="solutions__ul">
+                            <li  class="solutions__li">
+                                <a class="solutions__link" href="">Prengi Production </a>
+                                <div class="solutions__line solutions__line-active"></div>
                             </li>
-                            <li>
-                                <a href="">Prengi FMC </a>
-                                <div class="solutions__line"></div>
+                            <li class="solutions__li">
+                                <a class="solutions__link " href="">Prengi FMC </a>
+                                <div class="solutions__line solutions__line-active"></div>
                             </li>
-                            <li>
-                                <a href="">Prengi Mallz Retail</a>
-                                <div class="solutions__line"></div>
+                            <li class="solutions__li">
+                                <a class="solutions__link" href="">Prengi Mallz Retail</a>
+                                <div class="solutions__line solutions__line-active"></div>
                             </li>
-                            <li>
-                                <a href="">Prengi Logistic</a>
-                                <div class="solutions__line"></div>
+                            <li class="solutions__li">
+                                <a class="solutions__link" href="">Prengi Logistic</a>
+                                <div class="solutions__line solutions__line-active"></div>
                             </li>
-                            <li>
-                                <a href="">Prengi IT</a>
-                                <div class="solutions__line"></div>
+                            <li class="solutions__li">
+                                <a class="solutions__link" href="">Prengi IT</a>
+                                <div class="solutions__line solutions__line-active"></div>
                             </li>
-                            <li>
-                                <a href="">Prengi HR</a>
+                            <li class="solutions__li">
+                                <a class="solutions__link" href="">Prengi HR</a>
                             </li>
                         </ul>
                     </div>
@@ -207,49 +214,49 @@
             <div class="industry__content">
                 <div class="industry__block">
                     <div class="industru__img">
-                        <img src="img/1-6(clock).png" alt="img">
+                        <img src="img/1-6(clock).png" alt="img" class="industry__img">
                         <div class="industry__subtitle">
-                            <p>Возможность внедрения и<br> тестирования в реальном,<br> времени</p>
+                            <p class="industry__text">Возможность внедрения и<br> тестирования в реальном,<br> времени</p>
                         </div>
                     </div>
                 </div>
                 <div class="industry__block">
                     <div class="industru__img">
-                        <img src="img/2-6(arms).png" alt="img">
+                        <img src="img/2-6(arms).png" alt="img" class="industry__img">
                         <div class="industry__subtitle">
-                            <p>Система “Intellect”, учет уровня<br> доступов</p>
+                            <p class="industry__text">Система “Intellect”, учет уровня<br> доступов</p>
                         </div>
                     </div>
                 </div>
                 <div class="industry__block">
                     <div class="industru__img">
-                        <img src="img/3-6(world).png" alt="img">
+                        <img src="img/3-6(world).png" alt="img" class="industry__img">
                         <div class="industry__subtitle">
-                            <p>Возможность использовать из<br> любой точки мира с любого<br> устройства</p>
+                            <p class="industry__text">Возможность использовать из<br> любой точки мира с любого<br> устройства</p>
                         </div>
                     </div>
                 </div>
                 <div class="industry__block">
                     <div class="industru__img">
-                        <img src="img/4-6(phone).png" alt="img">
+                        <img src="img/4-6(phone).png" alt="img" class="industry__img">
                         <div class="industry__subtitle">
-                            <p>Нет необходимости установки<br> и стационарной работы<br> программиста</p>
+                            <p class="industry__text">Нет необходимости установки<br> и стационарной работы<br> программиста</p>
                         </div>
                     </div>
                 </div>
                 <div class="industry__block">
                     <div class="industru__img">
-                        <img src="img/5-6(man).png" alt="img">
+                        <img src="img/5-6(man).png" alt="img" class="industry__img">
                         <div class="industry__subtitle">
-                            <p>“Живые”<br> бизнес-процессы</p>
+                            <p class="industry__text">“Живые”<br> бизнес-процессы</p>
                         </div>
                     </div>
                 </div>
                 <div class="industry__block">
                     <div class="industru__img">
-                        <img src="img/6-6(by_card).png" alt="">
+                        <img src="img/6-6(by_card).png" alt="img" class="industry__img">
                         <div class="industry__subtitle">
-                            <p>Никаких предоплат, оплата<br> после старта</p>
+                            <p class="industry__text">Никаких предоплат, оплата<br> после старта</p>
                         </div>
                     </div>
                 </div>
@@ -260,10 +267,10 @@
     <section class="options">
         <div class="container">
             <div class="options__content">
-                <h2>Варианты развертывания Ваших данных</h2>
+                <h2 class="options__h2">Варианты развертывания Ваших данных</h2>
                 <div class="options__icons">
                     <div class="options__img">
-                        <img src="img/cloudnew.png" alt=""> 
+                        <img src="img/cloudnew.png" alt="" class="options__img"> 
                     </div>
                     <div class="options__text options__text-right">
                         <p class="options__title options__title-right">Облачное хранилище</p>
@@ -271,7 +278,7 @@
                         <p class="options__subtitle options__subtitle-min">жестком диске сервера, находящегося в Интернете.</p>
                     </div>
                     <div class="options__img">
-                        <img src="img/servernew.png" alt="">
+                        <img src="img/servernew.png" alt="" class="options__img">
                     </div>
                     <div class="options__text options__text-left">
                         <p class="options__title options__title-left">Размещение не сервере</p>

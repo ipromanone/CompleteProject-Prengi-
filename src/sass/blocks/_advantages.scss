@@ -1,37 +1,47 @@
 .advantages {
+    display: none;
     min-height: 895px;
     &__info-up {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
         margin-top: 48px;
-        p {
-            position: absolute;
-            width: 254px;
-            margin-top: -80px;
-            margin-left: 35px;
-            text-align: center;
-            color: #393939;
-            font-size: 18px;
-            font-weight: 300;
-            line-height: 26px
+        img {
+            padding: 10px;
+            max-width: 100%;
         }
     }
+    &__text-up {
+        position: absolute;
+        max-width: 13%;
+        padding: 4px;
+        margin-top: -80px;
+        margin-left: 35px;
+        text-align: center;
+        color: #393939;
+        font-size: 95%;
+        font-weight: 300;
+        line-height: 26px
+    }
+ 
     &__info-down {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        p {
-            position: absolute;
-            width: 254px;
-            margin-top: -80px;
-            margin-left: 35px;
-            text-align: center;
-            color: #393939;
-            font-size: 18px;
-            font-weight: 300;
-            line-height: 26px;
-        }
+        justify-content: center;
+    }
+    &__icon {
+        padding: 10px;
+        max-width: 100%;
+    }
+    &__text-down {
+        position: absolute;
+        padding: 4px;
+        max-width: 13%;
+        margin-top: -80px;
+        margin-left: 35px;
+        text-align: center;
+        color: #393939;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
     }
         img {
             width: 330px;
@@ -42,6 +52,9 @@
         justify-content: center;
         align-items: center;
         margin-top: 19px;
+        img {
+            max-width: 100%;
+        }
     }
     &__title {
         text-align: center;
@@ -52,6 +65,5 @@
         font-weight: 700;
         line-height: 30.04px;
         text-transform: uppercase;
-    }
-    
+    } 
 }

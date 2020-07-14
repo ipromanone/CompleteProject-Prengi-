@@ -1,8 +1,9 @@
 @import "../sass/base/media";
 
 .container {
+    position: relative;
     max-width: 1140px;
-    padding:0 20px;
+    padding:0 50px;
     margin: 0 auto;
 }
 
